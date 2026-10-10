@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unes | Universidade</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="./imagens/logo.png" alt="logomarca da universidade unes">
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menu">☰</button>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#modalidades">Modalidades</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#professores">Professores</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO / SLIDER ===== -->
+    <header id="home" class="hero">
+        <div class="slides">
+            <div class="slide active" style="background-image: url('./imagens/topo.png');"></div>
+            <div class="slide" style="background-image: url('./imagens/topo_2.jpg');"></div>
+            <div class="slide" style="background-image: url('./imagens/topo_3.webp');"></div>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1>Faça parte da nossa comunidade acadêmica.</h1>
+            <p>Construa o seu futuro conosco</p>
+            <a class="btn" href="#sobre">Saiba mais</a>
+        </div>
+
+        <div class="hero-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+    </header>
+
+    
+        <!-- ===== SOBRE ===== -->
+        <section id="sobre" class="secao fundo-claro">
+            <div class="conteudo-secao">
+                <h2>Sobre nossa Universidade</h2>
+                <div class="sobre-conteudo">
+                    <div class="foto">
+                        <img src="./imagens/diretor.png" alt="diretor da universidade atendendo alunos">
+                    </div>
+                    <div class="texto">
+                    <p>
+                        A <strong>Universidade Nestor Ercílio Santos</strong> (Unes) é uma instituição de ensino superior
+                        comprometida com a formação acadêmica e profissional de seus estudantes. Nosso propósito é oferecer
+                        uma educação de qualidade, preparando nossos alunos para os desafios do mercado de trabalho e para
+                        uma atuação responsável na sociedade. Contamos com professores qualificados, diferentes modalidades
+                        de ensino e cursos pensados para atender às necessidades do mundo profissional atual. Aqui,
+                        acreditamos que a educação é uma ferramenta para transformar vidas. Por isso buscamos proporcionar
+                        um ambiente de aprendizagem, conhecimento, inovação e desenvolvimento pessoal. Venha fazer parte da
+                        nossa comunidade acadêmica e construa o seu futuro conosco.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== MODALIDADES ===== -->
+        <section id="modalidades" class="secao fundo-branco">
+            <div class="conteudo-secao">
+                <h2>Nossas modalidades de ensino</h2>
+                <div class="grid-cards">
+                <article class="card">
+                    <img src="./imagens/ead.png" alt="curso ead">
+                    <h3>Ensino a distância EAD</h3>
+                    <p>O ensino a distância permite que o aluno tenha acesso às aulas e aos conteúdos acadêmicos por meio do
+                        ambiente virtual de aprendizagem. Essa modalidade oferece maior flexibilidade para organizar os
+                        estudos de acordo com a rotina de cada estudante.</p>
+                </article>
+
+                <article class="card">
+                    <img src="./imagens/presencial.png" alt="curso presencial">
+                    <h3>Ensino presencial</h3>
+                    <p>A modalidade presencial proporciona contato direto entre alunos e professores, permitindo uma
+                        experiência acadêmica baseada na interação, participação em sala de aula e atividades práticas.</p>
+                </article>
+
+                <article class="card">
+                    <img src="./imagens/tecnico.png" alt="ensino técnico">
+                    <h3>Ensino técnico</h3>
+                    <p>É uma formação profissional de nível médio que une teoria e prática. O foco é ensinar o que o mercado
+                        de trabalho realmente exige no dia a dia, sendo uma alternativa para quem busca flexibilidade sem
+                        abrir mão do contato com a instituição e os professores.</p>
+                </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CURSOS ===== -->
+        <section id="cursos" class="secao fundo-claro">
+            <div class="conteudo-secao">
+                <h2>Nossos Cursos</h2>
+                <h3 class="subtitulo">Confira nossa grade de cursos</h3>
+                <div class="grid-cards grid-cursos">
+                    <article class="card card-curso">
+                        <img src="./imagens/adm.png" alt="ícone do curso administração">
+                        <h3>Administração</h3>
+                        <p>Desenvolva conhecimentos sobre gestão, planejamento, finanças, marketing e estratégias empresariais.</p>
+                    </article>
+
+                    <article class="card card-curso">
+                        <img src="./imagens/educacao_fisica.png" alt="ícone do curso educação física">
+                        <h3>Educação Física</h3>
+                        <p>Prepare-se para atuar nas áreas de esporte, exercício físico, saúde, treinamento e promoção da qualidade de vida.</p>
+                    </article>
+
+                    <article class="card card-curso">
+                        <img src="./imagens/pedagogia.png" alt="ícone do curso pedagogia">
+                        <h3>Pedagogia</h3>
+                        <p>Prepare-se para atuar na área da educação, desenvolvendo conhecimentos relacionados ao ensino, aprendizagem e desenvolvimento educacional.</p>
+                    </article>
+
+                    <article class="card card-curso">
+                        <img src="./imagens/infor.png" alt="ícone do curso informática">
+                        <h3>Informática</h3>
+                        <p>Desenvolva conhecimentos em tecnologia, programação, sistemas, banco de dados e soluções digitais para empresas.</p>
+                    </article>
+
+                    <article class="card card-curso">
+                        <img src="./imagens/rh.png" alt="ícone do curso gestão recursos humanos">
+                        <h3>Gestão de RH</h3>
+                        <p>Aprenda a trabalhar com gestão de pessoas, recrutamento, desenvolvimento profissional e estratégias organizacionais.</p>
+                    </article>
+
+                    <article class="card card-curso">
+                        <img src="./imagens/marketing.png" alt="ícone do curso marketing">
+                        <h3>Marketing</h3>
+                        <p>Aprenda estratégias de comunicação, marketing digital, comportamento do consumidor, publicidade e gestão de marcas.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROFESSORES ===== -->
+        <section id="professores" class="secao fundo-branco">
+            <div class="conteudo-secao">
+                <h2>Corpo Docente</h2>
+                <div class="grid-cards grid-professores">
+
+                    <article class="card card-professor">
+                        <img src="./imagens/professoradministracao.png" alt="professor de administração">
+                        <h3>Prof. Carlos Almeida</h3>
+                        <span class="tag">Administração</span>
+                        <p>Professor com experiência nas áreas de administração, planejamento estratégico e gestão empresarial.</p>
+                    </article>
+
+                    <article class="card card-professor">
+                        <img src="./imagens/professordeeducaofisica.jpg" alt="professor de educacao fisica">
+                        <h3>Prof. João Cláudio</h3>
+                        <span class="tag">Educação Física</span>
+                        <p>Profissional responsável por planejar, prescrever e orientar a prática de atividades físicas, esportivas e corporais visando promover a saúde e o bem-estar.</p>
+                    </article>
+
+                    <article class="card card-professor">
+                        <img src="./imagens/professorapedagogia.png" alt="professora de pedagogia">
+                        <h3>Prof.ª Mariana Souza</h3>
+                        <span class="tag">Educação e Pedagogia</span>
+                        <p>Especialista na área educacional, trabalha com metodologias de ensino, aprendizagem e desenvolvimento de práticas pedagógicas.</p>
+                    </article>
+
+                    <article class="card card-professor">
+                        <img src="./imagens/professorsistemas.png" alt="professor de sistemas">
+                        <h3>Prof. Rafael Martins</h3>
+                        <span class="tag">Tecnologia e Sistemas</span>
+                        <p>Com atuação em programação, sistemas de informação, desenvolvimento de soluções digitais e desenvolvimento web.</p>
+                    </article>
+
+                    <article class="card card-professor">
+                        <img src="./imagens/professorderh.jpg" alt="professora de Recursos Humanos">
+                        <h3>Prof.ª Julia Farias</h3>
+                        <span class="tag">Recursos Humanos</span>
+                        <p>Profissional responsável por ministrar aulas, treinar e capacitar pessoas nas diversas subáreas da gestão de pessoas.</p>
+                    </article>                  
+
+                    <article class="card card-professor">
+                        <img src="./imagens/professoramarketing.png" alt="professora de marketing">
+                        <h3>Prof.ª Juliana Costa</h3>
+                        <span class="tag">Marketing e Comunicação</span>
+                        <p>Com experiência em estratégias digitais, redes sociais, branding e comportamento do consumidor.</p>
+                    </article>
+                </div>    
+            </div>
+        </section>
+
+        <!-- ===== CONTATOS ===== -->
+        <section id="contatos" class="secao fundo-claro">
+            <div class="conteudo-secao">
+                <h2>Entre em contato com nossa secretaria</h2>
+                <p class="subtitulo">Nossos canais de atendimento</p>
+                <div class="contatos-grid">
+                    <a href="tel:558898204576" class="contato-item">
+                        <img src="imagens/whatsapp.png" alt="whatsapp">
+                        <span>(88) 9820-4576</span>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="contato-item">
+                        <img src="./imagens/instagram.png" alt="instagram">
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" class="contato-item">
+                        <img src="./imagens/facebook.png" alt="facebook">
+                        <span>Facebook</span>
+                    </a>
+                </div>    
+            </div>
+        </section>
+
+    
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer id="rodape">
+        <div class="rodape-conteudo">
+            <div class="rodape-col">
+                <img src="./imagens/logo.png" alt="logo unes" class="rodape-logo">
+                <p>Universidade Nestor Ercílio Santos</p>
+                <p>Educação que transforma vidas.</p>
+            </div>
+
+            <div class="rodape-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#modalidades">Modalidades</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                </ul>
+            </div>
+
+            <div class="rodape-col">
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="#professores">Professores</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                </ul>
+            </div>
+
+            <div class="rodape-col">
+                <h4>Redes Sociais</h4>
+                <div class="redes-sociais">
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                        <img src="imagens/instagram_bc.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                        <img src="./imagens/facebook_bc.png" alt="Facebook">
+                    </a>
+                    <a href="tel:558898204576" aria-label="WhatsApp">
+                        <img src="./imagens/whatsapp_bc.png" alt="WhatsApp">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="rodape-base">
+            <p>© 2026 UNES - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <a id="link-topo" href="#home" aria-label="Voltar ao topo">&#9650;</a>
+
+</body>
+</html>
